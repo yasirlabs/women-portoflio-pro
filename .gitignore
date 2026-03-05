@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -40,7 +41,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-
 # Project media (large files)
 /public/assets/images/Projects/
 /public/assets/videos/Projects/
+
+# OpenNext / Cloudflare
+.open-next/
+.dev.vars
+wrangler.toml
+wrangler.jsonc
+!.dev.vars.example   # İsterseniz örnek bir .dev.vars dosyasını sürümleyebilirsiniz
