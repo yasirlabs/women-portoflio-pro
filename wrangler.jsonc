@@ -1,6 +1,5 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "women-portoflio-pro",     // Cloudflare'de görünecek ad
+  "name": "women-portoflio-pro",
   "compatibility_date": "2025-09-27",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
@@ -10,5 +9,5 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS"
   },
-  "main": ".open-next/worker.js"      // OpenNext'in oluşturduğu worker
+  "main": ".open-next/worker.js"
 }
